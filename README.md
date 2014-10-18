@@ -3,7 +3,7 @@ level-simple-index
 
 [![Build Status](https://secure.travis-ci.org/maxkueng/level-simple-index.png?branch=master)](http://travis-ci.org/maxkueng/level-simple-index)
 
-A simple mapped index for leveldb / levelup that doesn't mess with your streams.
+A simple mapped index for LevelDB / [levelup](https://www.npmjs.org/package/levelup) that doesn't mess with your streams.
 
 ## Usage
 
