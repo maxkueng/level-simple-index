@@ -1,0 +1,44 @@
+{
+  "name": "level-simple-index",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "index",
+    "indexing"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxkueng/level-simple-index.git"
+  },
+  "scripts": {
+    "test": "mocha --ui bdd --reporter spec"
+  },
+  "author": "Max Kueng <me@maxkueng.com> (http://maxkueng.com/)",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/maxkueng/level-simple-index/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "bytewise": "^0.7.1",
+    "level-hooks": "^4.5.0",
+    "level-sublevel": "^6.3.15",
+    "object-assign": "^1.0.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "level": "^0.18.0",
+    "level-sublevel": "^6.3.15",
+    "mocha": "^1.21.5",
+    "moment": "^2.8.3",
+    "rimraf": "^2.2.8",
+    "through2": "^0.6.3",
+    "uuid": "^2.0.1"
+  }
+}
