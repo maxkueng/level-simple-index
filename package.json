@@ -1,7 +1,7 @@
 {
   "name": "level-simple-index",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple mapped index for LevelDB",
   "keywords": [
     "leveldb",
     "levelup",
