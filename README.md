@@ -37,7 +37,7 @@ db.createIndex('type', function mapFunction (key, value, emit) {
 // "toy" is the value to look up
 // the optional `options` argument supports all of levelup's
 //   options: gt, gte, lt, lte, reverse, limit, keys, values
-var stream = db.createIndexedStream('type', 'toy', {
+var stream = db.createIndexStream('type', 'toy', {
   gt: '\x00',
   lt: '\xff',
   limit: 5,
